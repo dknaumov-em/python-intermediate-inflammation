@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./3514inflam"
+      }
+    },
+    {
+      "@id": "./3514inflam",
+      "@type": "Dataset",
+      "name": "Inflammation software project repository",
+      "description": "# Inflam\nInflam is a data management system written in Python that manages trial data used in clinical inflammation studies.\n\n## Main features\nHere are some key features of Inflam:\n\n- Provide basic statistical analyses over clinical trial data\n- Ability to work on trial data in Comma-Separated Value (CSV) format\n- Generate plots of trial data\n- Analytical functions and views can be easily extended based on its Model-View-Controller architecture",
+      "datePublished": "2020-12-31",
+      "license": "Apache",
+      "author": {
+        "@id": "#Martin_Robinson-1"
+      },
+      "publisher": {
+        "@id": "#Zenodo-1"
+      }
+    },
+    {
+      "@id": "#Martin_Robinson-1",
+      "@type": "Person",
+      "name": "Martin_Robinson-1"
+    },
+    {
+      "@id": "#Zenodo-1",
+      "@type": "Organization",
+      "name": "Zenodo-1"
+    }
+  ]
+}
